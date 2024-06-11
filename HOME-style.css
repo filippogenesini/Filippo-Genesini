@@ -1,3 +1,7 @@
+html {
+    display: flex;
+}
+
 body, html {
     background-color: black;
     height: 100%;
@@ -6,7 +10,6 @@ body, html {
     display: flex;
     font-family: Arial, sans-serif;
     justify-content: space-evenly;
-    transition: transform 3s ease;
 }
 
 .centered-text {
@@ -76,6 +79,10 @@ body, html {
     display: flex; /* Mostra la seconda riga */
 }
 
+
+.line-divider {
+    display: none;
+}
 
 
 

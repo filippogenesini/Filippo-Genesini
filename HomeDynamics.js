@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             //     }
             //     else
             //     {
-            //         menu.style="transition-duration: 10s; display: flex;";
+                    menu.style="transition-duration: 10s; display: flex;";
             //     }
             // }
 

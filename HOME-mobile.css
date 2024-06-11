@@ -1,11 +1,10 @@
 @media (max-width: 600px) {
-    
-    body, html {
+
+    body {
         background-color: black;
         height: 100%;
         width: 100%;
         margin: 0;
-        margin-top: 10vw;
         margin-bottom: 10vw;
         display: flex;
         flex-direction: column;
@@ -18,15 +17,17 @@
     .centered-text {
         color: white;
         font-size: 12vw;
-        display: inline-block;
         display: flex;
         align-items: center;
+        flex-direction: column;
+        
     }
     
     .container-title {
         display: flex;
         flex-direction: column;
         text-align: center;
+        justify-content: space-between;
     }
     
     
@@ -71,6 +72,20 @@
     .text-PORT.no-blink { border-color: red   ; /* Spegne il cursore */ }
     .show-NAME { display: flex; /* Mostra la seconda riga */ }
     
+    
+    .line {
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    .divider {
+        display: flex;
+        border: none;
+        height: 2.8px;
+        background-color: #808080;
+        box-shadow: none;
+        width: 80%;
+    }
     
     
     
