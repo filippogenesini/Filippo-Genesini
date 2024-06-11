@@ -1,5 +1,7 @@
 
-console.log("ciao mondo");
+const mediaQuery = window.matchMedia('(max-width: 600px)');
+
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -11,7 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
     textPORT.addEventListener('animationend', (event) => {
         if (event.animationName === 'typing-1') {
 
-            menu.style="transition-duration: 10s; display: flex;";
+            // function handleMediaQueryChange(event) {
+            //     if (event.matches)
+            //     {
+            //         menu.style = "display: flex;";
+            //     }
+            //     else
+            //     {
+            //         menu.style="transition-duration: 10s; display: flex;";
+            //     }
+            // }
 
             // Aggiunge un ritardo prima di iniziare la seconda animazione
             setTimeout(() => {
@@ -28,4 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
         // Imposta l'animazione con il ritardo desiderato
         textNAME.style.animationDelay = '0s';
     });
+
 });
