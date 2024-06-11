@@ -73,10 +73,6 @@
     .show-NAME { display: flex; /* Mostra la seconda riga */ }
     
     
-    .line {
-        width: 100%;
-        align-self: flex-start;
-    }
 
     .divider {
         display: flex;
